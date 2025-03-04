@@ -1,0 +1,16 @@
+<div class="flex flex-col h-screen">
+  <div class="bg-white p-2 flex items-center">
+    <mat-tab-group class="w-full" [selectedIndex]="1">
+      <mat-tab class="p-10" label="Home">
+        <app-home></app-home>
+      </mat-tab>
+      <mat-tab class="p-10" label="Users">
+        <app-user></app-user>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <div class="p-4 border text-sm text-gray-500">
+    (c) 2025
+  </div>
+</div>
